@@ -15,6 +15,7 @@ fun main(){
         println("value of i = $i")
     } while(i <= 100)
 
+    //breaking with labels
     var number = 0;
     outer@ while(number < 10){
         number++

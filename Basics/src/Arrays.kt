@@ -12,6 +12,7 @@ fun main() {
         println(name)
     }
 
+    //a for in loop for an array
     println("Length of miscellaneous array ${miscellaneous.size}")
     for(element in miscellaneous){
         print("Current element $element")
