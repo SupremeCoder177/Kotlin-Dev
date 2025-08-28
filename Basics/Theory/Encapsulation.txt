@@ -1,0 +1,4 @@
+Encapsulation is a concept of Object-Oriented Programming where when you want
+to get or set the property of an object, we use methods called
+getters and setters, we don't modify or read the property directly
+because the property is a private field.

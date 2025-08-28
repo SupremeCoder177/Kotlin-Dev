@@ -1,0 +1,16 @@
+When you want to create an object that you only
+want to initialize if you use it, that is, you are unsure whether you will use it
+immediately or ever, you use something called lazy initialization, the syntax looks liks this.
+
+Normal Object Creation
+val objectName = ClassName(parameters)
+
+Lazy Creation
+val ObjectName by lazy {
+ ClassName(parameters)
+}
+
+The 'init' code block of the Class will only be executed when the object is used, otherwise
+it will not be executed, hence it will save some time, and in programming that means
+that creating lazy objects are less costly (time efficient) than creating normal objects which
+are initialized when created.

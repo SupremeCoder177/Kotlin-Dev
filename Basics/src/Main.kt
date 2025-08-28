@@ -21,7 +21,7 @@ fun div(a: Int, b: Int): Float{
 // vararg makes an input parameter into an array
 fun greet(greeting:String, vararg names:String): Unit{
     //this is for-in loop
-    for (name:String in names){
+    for (name in names){
         println("$greeting $name")
     }
 }
